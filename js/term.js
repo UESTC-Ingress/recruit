@@ -45,7 +45,7 @@ function do_term(){
         .break()
         .pause(800)
         .type("<br>")
-        .type("<a href='https://nia.ac.cn'>加入我们！</a>")
+        .type("<a href='http://qm.qq.com/cgi-bin/qm/qr?k=OI2GnMHK1IlPgYfuWq0XoaMhLhElpi0r'>加入我们！</a>")
         .go();
 }
 
