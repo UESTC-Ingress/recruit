@@ -45,7 +45,7 @@ function do_term(){
         .break()
         .pause(800)
         .type("<br>")
-        .type("<a href='http://qm.qq.com/cgi-bin/qm/qr?k=OI2GnMHK1IlPgYfuWq0XoaMhLhElpi0r'>加入我们！</a>")
+        .type("<a href='https://jq.qq.com/?_wv=1027&k=5SyyyaA'>加入我们！</a>")
         .go();
 }
 
@@ -79,7 +79,7 @@ function do_normal(){
         .break()
         .type("** - <a href='https://www.ifanr.com/684250' class='asm'>中国抓不到皮卡丘？你应该试试这款成就了 Pokemon GO 的前作！</a>")
         .break()
-        .type("<small>*** 本社Q群362632196</small> <br>")
+        .type("<small>*** 本社Q群613144885</small> <br>")
         .break()
         .type("等待您的加入！")
         .go();
