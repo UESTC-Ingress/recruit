@@ -103,7 +103,15 @@ a:hover {
     pointer-events: auto;
     text-shadow: 0rem 0.2rem 1rem #0c7b46;
     z-index: -1;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+
+    
+.output::-webkit-scrollbar { 
+    display: none;
+}
+
 @-webkit-keyframes crt-output {
     0% {
         opacity: 0.9;
