@@ -1,8 +1,12 @@
 @font-face {
-    font-family: 'VT323';
+    font-family: 'dot';
     font-style: normal;
-    font-weight: 400;
-    src: local('VT323 Regular'), local('VT323-Regular'), url(https://fonts-gstatic.proxy.ustclug.org/s/vt323/v11/pxiKyp0ihIEF2isfFJA.ttf) format('truetype');
+    font-weight: normal;
+    src: url('/font/f.eot');
+    src: url('/font/f.woff') format('woff'),
+    url('/font/f.ttf') format('truetype'),
+    url('/font/f.svg') format('svg');
+
 }
 * {
     box-sizing: border-box;
@@ -10,7 +14,7 @@
 body {
     background: #383838;
     color: #14fdce;
-    font-family: "VT323";
+    font-family: "dot";
     font-size: 24px;
     -webkit-font-smoothing: none;
     line-height: 1.2;
